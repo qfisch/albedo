@@ -1,6 +1,7 @@
 # **ALBEDO**
 ***A**utomated **L**and-surface **B**roadband **E**stimation & **D**ata-series **O**utput*  
-  
+<a href="https://doi.org/10.5281/zenodo.21111867"><img src="https://zenodo.org/badge/1286294136.svg" alt="DOI"></a>
+ 
 A Google Earth Engine script, designed to be an interactive and user friendly tool for assembling Sentinel-2 broadband surface albedo timeseries data for any user defined area of interest.
 Developed by the Flanagan Lab @ [The University of Lethbridge](https://uleth.ca).
 
