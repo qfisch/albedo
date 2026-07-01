@@ -10,6 +10,8 @@ Surface albedo — the fraction of incoming shortwave radiation reflected by the
 
 However, assessing albedo manually on a per-scene basis is time consuming and can introduce error. This Earth Engine script was created to automate the retrieval of broadband albedo timeseries data from relevant Sentinel-2 Surface Reflectance scenes. Cloud and cloud shadow affected areas are masked out using Google's Cloud Score+ product, broadband albedo is calculated within a user-defined polygon, and a mean value is derived per scene. Processed data is then exportable as a .csv to Google Drive.
 
+Of note, is this script does not apply any resampling to the SWIR bands, unlike the technique employed by Bonafoni & Sekertekin, who utilized a super-resoluton technique to resample from 20m to 10m. This script instead uses the default nearest neigbour logic in Earth Engine for resampling and applies no super-resolving techniques.
+
 # Getting Started
 > [!Tip]
 > In order to use ALBEDO, you must be a registered user on Google Earth Engine. A guide to setting up an account can be found [here](https://developers.google.com/earth-engine/guides/access).
