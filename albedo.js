@@ -30,7 +30,7 @@ Map.addLayer(geometry, {color: 'red'}, 'Geometry');
 
 // CONSTANTS
 var PIXEL_SCALE = 10;
-var DEFAULT_YEARS = '2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025';
+var DEFAULT_YEARS = '2020, 2021, 2022, 2023, 2024, 2025';
 var DEFAULT_COVERAGE = 90;
 
 // Cloud Score+ is used instead of QA60, for better masking performance and to resolve years with missing QA60 Data
